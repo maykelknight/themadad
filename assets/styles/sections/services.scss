@@ -1,0 +1,53 @@
+.services_section {
+  .service {
+    position: static;
+    margin-top: 60px;
+    margin-bottom: 300px;
+
+    .show-details {
+      cursor: pointer;
+      color: #eee;
+
+      &.-right {
+        text-align: right;
+      }
+
+      .chevron {
+        width: 18px;
+        transition: transform 0.3s ease-in-out;
+
+        &--up {
+          transform: rotate(180deg)
+        }
+      }
+    }
+  }
+
+  .additional-description {
+    color: hsla(211.76470588235296, 8.81%, 62.16%, 1.00);
+    border-bottom: 1px solid #0c0c0c;
+    padding: 20px 36px;
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: -75px;
+  }
+
+
+  @media (max-width: 768px) {
+    .service {
+      margin-bottom: 20px;
+      margin-top: 0px;
+
+      .show-details {
+        text-align: center;
+
+        &.-right {
+          text-align: center;
+        }
+      }
+    }
+    .additional-description {
+      margin-top: -40px;
+    }
+  }
+}
