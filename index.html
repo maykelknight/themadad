@@ -78,12 +78,26 @@
     <div class="section_top">
         <div class="container_top w-container">
             <div class="navbar w-nav" data-animation="default" data-collapse="none" data-duration="400">
-                <div class="container-2 w-container"><a class="brand w-nav-brand" href="#"></a><a class="nav-link w-nav-link" href="#Oferta">OFERTA</a><a class="nav-link-2 w-nav-link" href="#O-nas">O NAS</a><a
-                        class="nav-link-3 w-nav-link" href="#Kontakt">KONTAKT</a>
+                <div class="container-2 w-container">
+                    <a class="brand w-nav-brand" href="#"></a>
+                    <a class="nav-link w-nav-link" href="#Oferta">OFERTA</a>
+                    <a class="nav-link-2 w-nav-link" href="#O-nas">O NAS</a>
+                    <a class="nav-link-3 w-nav-link" href="#Kontakt">KONTAKT</a>
+
                     <div class="menu-button w-nav-button">
                         <div class="w-icon-nav-menu"></div>
                     </div>
+
+                    <div class="header-social-btns">
+                        <a class="facebook_link w-inline-block" href="https://www.facebook.com/agencjathemadad" target="_blank">
+                            <img alt="" height="25" src="images/facebook_ico.svg" width="25">
+                        </a>
+                        <a class="instagram_link w-inline-block" href="https://www.instagram.com/agencja_themadad/" target="_blank">
+                            <img alt="" height="25" src="images/instagram_ico.svg" width="25">
+                        </a>
+                    </div>
                 </div>
+
             </div>
             <div class="div-block">
                 <h1 class="heading"><strong class="bold-text-2">THE MAD AD</strong></h1>
@@ -169,7 +183,7 @@
                                          :class="index === 0 ? 'img-left' : ''"
                                     >
                                 </div>
-                                <span class="slide__name paragraph-7">{{slideContent.name}}<br></span>
+                                <span class="slide__name paragraph-7">{{slideContent.name}} {{slideContent.surname}}<br></span>
                                 <p class="slide__position paragraph-6">{{slideContent.position}}<br></p>
                                 <p class="slide__description" v-html="slideContent.description"></p>
                                 <p class="text-center">
@@ -244,7 +258,7 @@
     </div>
     <div class="footer_2">
         <div class="container4 w-container">
-            <p class="paragraph-9 text-center">© 2019 - All Rights Reserved the Mad Ad</p>
+            <p class="paragraph-9 text-center">© 2019 - All Rights Reserved The Mad Ad</p>
 <!--            <div class="div_social">-->
 <!--                <a class="facebook_link w-inline-block" href="https://www.facebook.com/agencjathemadad" target="_blank">-->
 <!--                    <img alt="" height="25" src="images/facebook_ico.svg" width="25">-->
