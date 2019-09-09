@@ -84,7 +84,7 @@ exports.default = {
     }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div class=\"w-slide\" _v-45cca731=\"\">\n    <div class=\"div-block-7\" _v-45cca731=\"\"><img alt=\"\" class=\"image-5\" :src=\"image\" _v-45cca731=\"\">\n        <p class=\"paragraph-4\" _v-45cca731=\"\">{{description}}</p>\n        <p class=\"paragraph-5\" _v-45cca731=\"\">{{name}} {{surname}}<br _v-45cca731=\"\"></p>\n        <p class=\"paragraph-6\" _v-45cca731=\"\">{{company}}<br _v-45cca731=\"\"></p>\n        <div class=\"div-block-8\" _v-45cca731=\"\"></div>\n    </div>\n</div>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div class=\"w-slide\" _v-45cca731=\"\">\n    <div class=\"div-block-7\" _v-45cca731=\"\"><img alt=\"\" class=\"testimonial-image image-5\" :src=\"image\" _v-45cca731=\"\">\n        <p class=\"paragraph-4\" _v-45cca731=\"\">{{description}}</p>\n        <p class=\"paragraph-5\" _v-45cca731=\"\">{{name}} {{surname}}<br _v-45cca731=\"\"></p>\n        <p class=\"paragraph-6\" _v-45cca731=\"\">{{company}}<br _v-45cca731=\"\"></p>\n        <div class=\"div-block-8\" _v-45cca731=\"\"></div>\n    </div>\n</div>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)

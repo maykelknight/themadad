@@ -5,6 +5,9 @@ a {
 .text-center {
   text-align: center; }
 
+.testimonial-image {
+  max-width: 140px; }
+
 .navbar .container-2 {
   margin-right: 0;
   padding-right: 0; }
