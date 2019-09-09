@@ -140,7 +140,6 @@ const vueApp = new Vue({
                             additionalDescription: service.fields.additionalDescription ? richTextToHtmlRenderer.documentToHtmlString(service.fields.additionalDescription, this.contentfulRichTextOptions) : null
                         }
                     })
-
                 });
                 this.services = parsedServices[0];
             });
@@ -166,34 +165,8 @@ const vueApp = new Vue({
                 });
                 parsedSlides.sort((a, b) => a.number - b.number);
                 this.slides = parsedSlides;
-                $(document).ready(function () {
-                    $('.team-slider').slick({
-                        // asNavFor: '.team-captions',
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        autoplay: true,
-                        autoplaySpeed: 5000,
-                        mobileFirst: true,
-                        dots: true,
-                        arrows: true,
-                        responsive: [
-                            {
-                                breakpoint: 800,
-                                settings: {
-                                    slidesToShow: 2,
-                                    slidesToScroll: 2
-                                }
-                            }
-                        ]
-                    });
+                this.initializeTeamSlider();
 
-                    // $('.team-captions').slick({
-                    //     slidesToShow: 1,
-                    //     slidesToScroll: 1,
-                    //     dots: false,
-                    //     navigation: false
-                    // });
-                });
 
             });
         },
@@ -212,7 +185,43 @@ const vueApp = new Vue({
                     });
                 });
                 this.testimonials = parsedTestimonial[0];
+                this.initializeTestimonialSlider();
             });
+        },
+        initializeTeamSlider() {
+            $(document).ready(function () {
+                $('.team-slider').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    mobileFirst: true,
+                    dots: true,
+                    arrows: true,
+                    responsive: [
+                        {
+                            breakpoint: 800,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2
+                            }
+                        }
+                    ]
+                });
+            });
+        },
+        initializeTestimonialSlider() {
+            $(document).ready(function () {
+                $('.testimonial-slider').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    mobileFirst: true,
+                    dots: true,
+                    arrows: true,
+                });
+            })
         }
     },
     components: {

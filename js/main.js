@@ -1,26 +1,16 @@
 AOS.init();
 
 
-$(document).ready(function () {
-    // $('.team-slider').slick({
-    //     // asNavFor: '.team-captions',
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 5000,
-    //     mobileFirst: true,
-    //     dots: true,
-    //     arrows: true,
-    //     responsive: [
-    //         {
-    //             breakpoint: 800,
-    //             settings: {
-    //                 slidesToShow: 2,
-    //                 slidesToScroll: 2
-    //             }
-    //         }
-    //     ]
-    // });
+// $(document).ready(function () {
+//     $('.testimonial-slider').slick({
+//         slidesToShow: 1,
+//         slidesToScroll: 1,
+//         autoplay: false,
+//         autoplaySpeed: 5000,
+//         mobileFirst: true,
+//         dots: true,
+//         arrows: true,
+//     });
 
     // $('.team-captions').slick({
     //     slidesToShow: 1,
@@ -28,4 +18,4 @@ $(document).ready(function () {
     //     dots: false,
     //     navigation: false
     // });
-});
+// });

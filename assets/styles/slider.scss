@@ -1,3 +1,92 @@
+.mad-slider {
+
+  .slick-dots {
+    cursor: pointer;
+    bottom: -45px;
+
+    .slick-active {
+      background: #fff !important;
+    }
+
+    li {
+      button {
+        cursor: pointer;
+
+        &:before {
+          display: none;
+        }
+      }
+
+      border-radius: 50%;
+      position: relative;
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-color: rgba(255, 255, 255, 0.4);
+      cursor: pointer;
+      margin: 0 3px 0.5em;
+      transition: background-color 100ms, color 100ms;
+    }
+  }
+
+
+  .slick-next {
+    z-index: 1;
+  }
+
+  .slick-prev {
+    z-index: 1;
+    left: -46px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 40px;
+    font-family: 'webflow-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .slick-prev:before {
+    content: "\e601";
+  }
+
+  .slick-next:before {
+    content: "\e600";
+  }
+
+  .slick-slide, .slick-slide * {
+    outline: none !important;
+  }
+}
+
+
+.testimonial-slider {
+
+  .slick-dots {
+    bottom: 80px;
+  }
+
+  .slick-slide {
+    height: 500px;
+  }
+
+  .slick-next {
+    z-index: 1;
+    right: 20px;
+  }
+
+  .slick-prev {
+    z-index: 1;
+    left: 5px;
+  }
+}
+
+
 .team-slider {
   .slide {
 
@@ -63,71 +152,9 @@
 
   }
 
-  .slick-dots {
-    cursor: pointer;
-    bottom: -45px;
-
-    .slick-active {
-      background: #fff !important;
-    }
-
-    li {
-      button {
-        cursor: pointer;
-
-        &:before {
-          display: none;
-        }
-      }
-
-      border-radius: 50%;
-      position: relative;
-      display: inline-block;
-      width: 1em;
-      height: 1em;
-      background-color: rgba(255, 255, 255, 0.4);
-      cursor: pointer;
-      margin: 0 3px 0.5em;
-      transition: background-color 100ms, color 100ms;
-    }
-  }
-
-
-  .slick-next {
-    z-index: 1;
-  }
-
-  .slick-prev {
-    z-index: 1;
-    left: -46px;
-  }
-
-  .slick-prev:before, .slick-next:before {
-    font-size: 40px;
-    font-family: 'webflow-icons' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .slick-prev:before {
-    content: "\e601";
-  }
-
-  .slick-next:before {
-    content: "\e600";
-  }
-
-  .slick-slide, .slick-slide * {
-    outline: none !important;
-  }
-
 
 }
+
 .team-captions {
   top: -60px;
   text-align: center;
@@ -144,4 +171,19 @@
   .slick-prev {
     display: none !important;
   }
+}
+
+@media (max-width: 768px) {
+  .testimonial-slider {
+    margin-top: 50px;
+
+    .slick-dots {
+      bottom: 0;
+    }
+
+    .slick-slide {
+      height: auto;
+    }
+  }
+
 }
