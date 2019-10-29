@@ -80,10 +80,12 @@ a {
   -webkit-font-smoothing: antialiased; }
 
 .mad-slider .slick-prev:before {
-  content: "\e601"; }
+  content: "\e601";
+  z-index: 100; }
 
 .mad-slider .slick-next:before {
-  content: "\e600"; }
+  content: "\e600";
+  z-index: 100; }
 
 .mad-slider .slick-slide, .mad-slider .slick-slide * {
   outline: none !important; }
@@ -159,6 +161,28 @@ a {
       bottom: 0; }
     .testimonial-slider .slick-slide {
       height: auto; } }
+
+.banner-btns {
+  display: flex;
+  flex-direction: row; }
+  .banner-btns .collaboration {
+    margin-right: 30px; }
+  .banner-btns .courses {
+    background: none;
+    border: 2px solid orange;
+    color: orange; }
+    .banner-btns .courses:hover {
+      background: repeating-linear-gradient(270deg, #ffeb3f, #f18c35);
+      color: black;
+      border: none; }
+
+@media (max-width: 576px) {
+  .banner-btns {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center; }
+    .banner-btns .collaboration {
+      margin-right: 0; } }
 
 .services_section .service {
   position: static;

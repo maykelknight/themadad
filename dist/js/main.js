@@ -40,7 +40,7 @@ exports.default = {
     }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div _v-9f1dc972=\"\">\n    <div class=\"w-container service\" data-aos=\"fade-up\" data-aos-duration=\"700\" _v-9f1dc972=\"\">\n        <div class=\"div-block-icon_1\" _v-9f1dc972=\"\">\n            <img alt=\"\" :class=\"[evenIndex ? 'image-4' : 'image-3']\" :src=\"image\" _v-9f1dc972=\"\">\n            <div :class=\"[evenIndex ? 'div-block-4' : 'div-block-3']\" _v-9f1dc972=\"\">\n                <h1 :class=\"[evenIndex ? 'heading-5' : 'heading-4']\" _v-9f1dc972=\"\">\n                    <strong :class=\"[evenIndex ? 'bold-text-3' : '']\" _v-9f1dc972=\"\">{{label}}</strong>\n                </h1>\n                <p v-html=\"description\" :class=\"[evenIndex ? 'paragraph-3' : 'paragraph-2']\" _v-9f1dc972=\"\">\n                </p>\n                <p v-if=\"additionalDescription\" class=\"show-details\" :class=\"[evenIndex ? '-right' : '']\" @click=\"toggleAdditionalDescriptionVisibility()\" _v-9f1dc972=\"\">\n                    {{additionalDescriptionVisible ? 'Ukryj szczegóły' : 'Pokaż szczegóły'}}\n                    <img class=\"chevron\" src=\"./images/chevron-down.svg\" :class=\"[ additionalDescriptionVisible ? 'chevron--up' : '' ]\" _v-9f1dc972=\"\">\n                </p>\n            </div>\n        </div>\n    </div>\n    <p v-if=\"additionalDescriptionVisible\" v-html=\"additionalDescription\" class=\"additional-description\" _v-9f1dc972=\"\">\n    </p>\n</div>\n\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div _v-fe6dac02=\"\">\n    <div class=\"w-container service\" data-aos=\"fade-up\" data-aos-duration=\"700\" _v-fe6dac02=\"\">\n        <div class=\"div-block-icon_1\" _v-fe6dac02=\"\">\n            <img alt=\"\" :class=\"[evenIndex ? 'image-4' : 'image-3']\" :src=\"image\" _v-fe6dac02=\"\">\n            <div :class=\"[evenIndex ? 'div-block-4' : 'div-block-3']\" _v-fe6dac02=\"\">\n                <h1 :class=\"[evenIndex ? 'heading-5' : 'heading-4']\" _v-fe6dac02=\"\">\n                    <strong :class=\"[evenIndex ? 'bold-text-3' : '']\" _v-fe6dac02=\"\">{{label}}</strong>\n                </h1>\n                <p v-html=\"description\" :class=\"[evenIndex ? 'paragraph-3' : 'paragraph-2']\" _v-fe6dac02=\"\">\n                </p>\n                <p v-if=\"additionalDescription\" class=\"show-details\" :class=\"[evenIndex ? '-right' : '']\" @click=\"toggleAdditionalDescriptionVisibility()\" _v-fe6dac02=\"\">\n                    {{additionalDescriptionVisible ? 'Ukryj szczegóły' : 'Pokaż szczegóły'}}\n                    <img class=\"chevron\" src=\"./images/chevron-down.svg\" :class=\"[ additionalDescriptionVisible ? 'chevron--up' : '' ]\" _v-fe6dac02=\"\">\n                </p>\n            </div>\n        </div>\n    </div>\n    <p v-if=\"additionalDescriptionVisible\" v-html=\"additionalDescription\" class=\"additional-description\" _v-fe6dac02=\"\">\n    </p>\n</div>\n\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -50,9 +50,9 @@ if (module.hot) {(function () {  module.hot.accept()
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-9f1dc972", module.exports)
+    hotAPI.createRecord("_v-fe6dac02", module.exports)
   } else {
-    hotAPI.update("_v-9f1dc972", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-fe6dac02", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"vue":89,"vue-hot-reload-api":87,"vueify/lib/insert-css":91}],2:[function(require,module,exports){
@@ -84,7 +84,7 @@ exports.default = {
     }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div class=\"w-slide\" _v-45cca731=\"\">\n    <div class=\"div-block-7\" _v-45cca731=\"\"><img alt=\"\" class=\"testimonial-image image-5\" :src=\"image\" _v-45cca731=\"\">\n        <p class=\"paragraph-4\" _v-45cca731=\"\">{{description}}</p>\n        <p class=\"paragraph-5\" _v-45cca731=\"\">{{name}} {{surname}}<br _v-45cca731=\"\"></p>\n        <p class=\"paragraph-6\" _v-45cca731=\"\">{{company}}<br _v-45cca731=\"\"></p>\n        <div class=\"div-block-8\" _v-45cca731=\"\"></div>\n    </div>\n</div>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div class=\"w-slide\" _v-0ce2cc2e=\"\">\n    <div class=\"div-block-7\" _v-0ce2cc2e=\"\"><img alt=\"\" class=\"testimonial-image image-5\" :src=\"image\" _v-0ce2cc2e=\"\">\n        <p class=\"paragraph-4\" _v-0ce2cc2e=\"\">{{description}}</p>\n        <p class=\"paragraph-5\" _v-0ce2cc2e=\"\">{{name}} {{surname}}<br _v-0ce2cc2e=\"\"></p>\n        <p class=\"paragraph-6\" _v-0ce2cc2e=\"\">{{company}}<br _v-0ce2cc2e=\"\"></p>\n        <div class=\"div-block-8\" _v-0ce2cc2e=\"\"></div>\n    </div>\n</div>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -94,9 +94,9 @@ if (module.hot) {(function () {  module.hot.accept()
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-45cca731", module.exports)
+    hotAPI.createRecord("_v-0ce2cc2e", module.exports)
   } else {
-    hotAPI.update("_v-45cca731", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-0ce2cc2e", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"vue":89,"vue-hot-reload-api":87,"vueify/lib/insert-css":91}],3:[function(require,module,exports){

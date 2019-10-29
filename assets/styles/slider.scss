@@ -53,10 +53,12 @@
 
   .slick-prev:before {
     content: "\e601";
+    z-index: 100;
   }
 
   .slick-next:before {
     content: "\e600";
+    z-index: 100;
   }
 
   .slick-slide, .slick-slide * {
