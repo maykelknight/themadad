@@ -31,7 +31,7 @@
     "gulp-vueify": "0.0.3",
     "vinyl-source-stream": "^2.0.0",
     "vueify-insert-css": "^1.0.0",
-    "vuetify": "^2.0.10",
+    "vuetify": "^2.6.10",
     "watchify": "^3.11.1"
   }
 }
